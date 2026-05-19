@@ -2339,6 +2339,10 @@ msgstr "Закрыть"
 msgid "Clovis Point"
 msgstr ""
 
+#: src/components/_other/shop/skinPack.frontConfig.tsx:37
+msgid "Cold af"
+msgstr ""
+
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:106
 msgid "Colonel"
 msgstr "Полковник"
@@ -8012,6 +8016,10 @@ msgstr "Всё производство"
 #: src/components/_political/law/LawFormModal.tsx:179
 msgid "Why do you want to propose this law?"
 msgstr "Почему Вы хотите предложить этот законопроект?"
+
+#: src/components/_other/shop/skinPack.frontConfig.tsx:36
+msgid "Winter Soldier pack"
+msgstr ""
 
 #: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:185
 msgid "with bonus"

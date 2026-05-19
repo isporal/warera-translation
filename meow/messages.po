@@ -2339,6 +2339,10 @@ msgstr "Meow"
 msgid "Clovis Point"
 msgstr ""
 
+#: src/components/_other/shop/skinPack.frontConfig.tsx:37
+msgid "Cold af"
+msgstr ""
+
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:106
 msgid "Colonel"
 msgstr "Meow"
@@ -8012,6 +8016,10 @@ msgstr "Meow Meow"
 #: src/components/_political/law/LawFormModal.tsx:179
 msgid "Why do you want to propose this law?"
 msgstr "Meow meow meow meow meow meow meow meow?"
+
+#: src/components/_other/shop/skinPack.frontConfig.tsx:36
+msgid "Winter Soldier pack"
+msgstr ""
 
 #: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:185
 msgid "with bonus"
