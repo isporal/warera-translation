@@ -127,7 +127,7 @@ msgid "{0}% income tax will be deducted from earnings when working in this compa
 msgstr "{0}% impozit va fi reținut din venitul obținut la această companie."
 
 #. placeholder {0}: region.taxPercent
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:168
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:151
 msgid "{0}% income tax will be deducted from your workers wages."
 msgstr "{0}% impozit pe venit va fi reținut din salariile muncitorilor tăi."
 
@@ -617,7 +617,7 @@ msgid "<0>{0}</0> from <1>Resistance</1>"
 msgstr "<0>{0}</0> de la <1>Rezistență</1>"
 
 #. placeholder {0}: region.ethicDepositBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:151
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:134
 msgid "<0>{0}</0> from agrarian ethics deposit bonus."
 msgstr "<0>{0}</0> bonus zăcământ de la etica agrară a partidului guvernant"
 
@@ -627,7 +627,7 @@ msgid "<0>{0}</0> from alliance with <1/>"
 msgstr "<0>{0}</0> din alianța cu <1/>"
 
 #. placeholder {0}: region.depositBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:141
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:124
 msgid "<0>{0}</0> from deposit resources."
 msgstr "<0>{0}</0> bonus zăcământ"
 
@@ -642,7 +642,7 @@ msgid "<0>{0}</0> from fighting for your country"
 msgstr "<0>{0}</0> pentru că lupți pentru țara ta"
 
 #. placeholder {0}: region.ethicSpecializationBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:131
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:114
 msgid "<0>{0}</0> from industrialist ethics specialization bonus."
 msgstr "<0>{0}</0> de la etica industrialistă a partidului guvernant"
 
@@ -667,7 +667,7 @@ msgid "<0>{0}</0> from Pacifist ethics (defending)"
 msgstr "<0>{0}</0> de la etica Pacifistă a partidului guvernant (aperi)"
 
 #. placeholder {0}: region.strategicBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:121
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:104
 msgid "<0>{0}</0> from strategic resources production bonus."
 msgstr "<0>{0}</0> bonus producție datorită resurselor strategice"
 
@@ -2997,7 +2997,7 @@ msgstr "Resursă de zăcământ"
 msgid "Deposit resources"
 msgstr "Zăcăminte resurse"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:103
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:86
 msgid "Deposit will be depleted in"
 msgstr "Depozitul va fi epuizat în"
 
@@ -4071,7 +4071,7 @@ msgid "Income tax"
 msgstr "Impozit pe venit"
 
 #: src/components/_economy/company/CompanyTags.tsx:49
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:167
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:150
 msgid "Income Tax"
 msgstr "Impozit pe venit"
 
@@ -5802,7 +5802,7 @@ msgid "Production"
 msgstr "Producție"
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:48
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:116
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:99
 #: src/pages/region/[regionId]/index.tsx:69
 msgid "Production bonus"
 msgstr "Bonus producție"
@@ -6032,7 +6032,7 @@ msgstr "Rețetă"
 msgid "Recipient"
 msgstr "Destinatar"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:84
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:67
 msgid "Recommended regions"
 msgstr "Regiuni recomandate"
 
@@ -6708,6 +6708,11 @@ msgstr "Setări"
 msgid "Shop"
 msgstr "Magazin"
 
+#. placeholder {0}: Math.min(step, remaining)
+#: src/components/_political/party/PartyMembers.tsx:217
+msgid "Show {0} more ({remaining} remaining)"
+msgstr ""
+
 #. placeholder {0}: auction.bids.length
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:273
 msgid "Show all {0} bids"
@@ -7059,7 +7064,7 @@ msgstr "Tabel"
 msgid "Take control"
 msgstr "Preia controlul"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:79
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:62
 msgid "Take deposits into account"
 msgstr "Ia în considerare zăcămintele de resurse"
 

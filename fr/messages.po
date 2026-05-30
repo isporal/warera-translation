@@ -129,7 +129,7 @@ msgid "{0}% income tax will be deducted from earnings when working in this compa
 msgstr "{0}% d'impôt sur le revenu sera déduit des gains en travaillant dans cette entreprise."
 
 #. placeholder {0}: region.taxPercent
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:168
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:151
 msgid "{0}% income tax will be deducted from your workers wages."
 msgstr "{0}% d'impôt sur le revenu sera déduit des salaires de tes travailleurs."
 
@@ -619,7 +619,7 @@ msgid "<0>{0}</0> from <1>Resistance</1>"
 msgstr "<0>{0}</0> de la <1>Résistance</1>"
 
 #. placeholder {0}: region.ethicDepositBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:151
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:134
 msgid "<0>{0}</0> from agrarian ethics deposit bonus."
 msgstr "<0>{0}</0> du bonus de gisement de l'éthique agraire."
 
@@ -629,7 +629,7 @@ msgid "<0>{0}</0> from alliance with <1/>"
 msgstr "<0>{0}</0> de l'alliance avec <1/>"
 
 #. placeholder {0}: region.depositBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:141
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:124
 msgid "<0>{0}</0> from deposit resources."
 msgstr "<0>{0}</0> des ressources de gisement."
 
@@ -644,7 +644,7 @@ msgid "<0>{0}</0> from fighting for your country"
 msgstr "<0>{0}</0> en combattant pour ton pays"
 
 #. placeholder {0}: region.ethicSpecializationBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:131
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:114
 msgid "<0>{0}</0> from industrialist ethics specialization bonus."
 msgstr "<0>{0}</0> du bonus de spécialisation de l'éthique industrialiste."
 
@@ -669,7 +669,7 @@ msgid "<0>{0}</0> from Pacifist ethics (defending)"
 msgstr "<0>{0}</0> de l'éthique Pacifiste (défense)"
 
 #. placeholder {0}: region.strategicBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:121
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:104
 msgid "<0>{0}</0> from strategic resources production bonus."
 msgstr "<0>{0}</0> du bonus de production des ressources stratégiques."
 
@@ -2999,7 +2999,7 @@ msgstr "Ressource de gisement"
 msgid "Deposit resources"
 msgstr "Dépôts de ressources"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:103
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:86
 msgid "Deposit will be depleted in"
 msgstr "Le gisement sera épuisé dans"
 
@@ -4073,7 +4073,7 @@ msgid "Income tax"
 msgstr "Impôt sur le revenu"
 
 #: src/components/_economy/company/CompanyTags.tsx:49
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:167
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:150
 msgid "Income Tax"
 msgstr "Impôt sur le revenu"
 
@@ -5804,7 +5804,7 @@ msgid "Production"
 msgstr "Production"
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:48
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:116
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:99
 #: src/pages/region/[regionId]/index.tsx:69
 msgid "Production bonus"
 msgstr "Bonus de production"
@@ -6034,7 +6034,7 @@ msgstr "Recette"
 msgid "Recipient"
 msgstr "Destinataire"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:84
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:67
 msgid "Recommended regions"
 msgstr "Régions recommandées"
 
@@ -6710,6 +6710,11 @@ msgstr "Paramètres"
 msgid "Shop"
 msgstr "Boutique"
 
+#. placeholder {0}: Math.min(step, remaining)
+#: src/components/_political/party/PartyMembers.tsx:217
+msgid "Show {0} more ({remaining} remaining)"
+msgstr ""
+
 #. placeholder {0}: auction.bids.length
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:273
 msgid "Show all {0} bids"
@@ -7061,7 +7066,7 @@ msgstr "Tableau"
 msgid "Take control"
 msgstr "Prendre le contrôle"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:79
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:62
 msgid "Take deposits into account"
 msgstr "Prendre en compte les dépôts"
 

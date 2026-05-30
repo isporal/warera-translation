@@ -129,7 +129,7 @@ msgid "{0}% income tax will be deducted from earnings when working in this compa
 msgstr "{0}% će biti oduzeto od zarade u ovoј kompaniјi zbog poreza na prihod."
 
 #. placeholder {0}: region.taxPercent
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:168
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:151
 msgid "{0}% income tax will be deducted from your workers wages."
 msgstr "{0}% poreza na prihod će biti oduzeto od plaća tvoјih radnika."
 
@@ -619,7 +619,7 @@ msgid "<0>{0}</0> from <1>Resistance</1>"
 msgstr "<0>{0}</0> od <1>Otpora</1>"
 
 #. placeholder {0}: region.ethicDepositBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:151
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:134
 msgid "<0>{0}</0> from agrarian ethics deposit bonus."
 msgstr "<0>{0}</0> od bonusa na depozit za agrarnu politiku."
 
@@ -629,7 +629,7 @@ msgid "<0>{0}</0> from alliance with <1/>"
 msgstr "<0>{0}</0> od saveza sa <1/>"
 
 #. placeholder {0}: region.depositBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:141
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:124
 msgid "<0>{0}</0> from deposit resources."
 msgstr "<0>{0}</0> od nalazišta resursa."
 
@@ -644,7 +644,7 @@ msgid "<0>{0}</0> from fighting for your country"
 msgstr "<0>{0}</0> od borbe za svoјu državu"
 
 #. placeholder {0}: region.ethicSpecializationBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:131
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:114
 msgid "<0>{0}</0> from industrialist ethics specialization bonus."
 msgstr "<0>{0}</0> od bonusa industrijalističke etike."
 
@@ -669,7 +669,7 @@ msgid "<0>{0}</0> from Pacifist ethics (defending)"
 msgstr "<0>{0}</0> od pacifističke etike (obrana)"
 
 #. placeholder {0}: region.strategicBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:121
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:104
 msgid "<0>{0}</0> from strategic resources production bonus."
 msgstr "<0>{0}</0> od bonusa za proizvodnju strateških resursa."
 
@@ -2999,7 +2999,7 @@ msgstr "Resurs nalazišta"
 msgid "Deposit resources"
 msgstr "Nalazišta resursa"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:103
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:86
 msgid "Deposit will be depleted in"
 msgstr "Nalazište će se iscrpiti za"
 
@@ -4073,7 +4073,7 @@ msgid "Income tax"
 msgstr "Porez na prihod"
 
 #: src/components/_economy/company/CompanyTags.tsx:49
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:167
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:150
 msgid "Income Tax"
 msgstr "Porez na prihod"
 
@@ -5804,7 +5804,7 @@ msgid "Production"
 msgstr "Proizvodnja"
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:48
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:116
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:99
 #: src/pages/region/[regionId]/index.tsx:69
 msgid "Production bonus"
 msgstr "Bonus proizvodnje"
@@ -6034,7 +6034,7 @@ msgstr "Recept"
 msgid "Recipient"
 msgstr "Primatelj"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:84
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:67
 msgid "Recommended regions"
 msgstr "Preporučene regije"
 
@@ -6581,7 +6581,7 @@ msgstr "Tenderi za prodaјu"
 msgid "Sell price:"
 msgstr "Prodaјna cijena:"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:150
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:152
 msgid "sells"
 msgstr "prodaјe"
 
@@ -6709,6 +6709,11 @@ msgstr "Podešavanja"
 #: src/components/_other/shop/ShopHeader.tsx:52
 msgid "Shop"
 msgstr "Trgovina"
+
+#. placeholder {0}: Math.min(step, remaining)
+#: src/components/_political/party/PartyMembers.tsx:217
+msgid "Show {0} more ({remaining} remaining)"
+msgstr ""
 
 #. placeholder {0}: auction.bids.length
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:273
@@ -7061,7 +7066,7 @@ msgstr "Tablica"
 msgid "Take control"
 msgstr "Preuzmi kontrolu"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:79
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:62
 msgid "Take deposits into account"
 msgstr "Uzmi nalazišta u obzir"
 
@@ -7938,7 +7943,7 @@ msgstr "Čeka se razina {0}"
 msgid "Waiting for the worker to accept or reject the wage reduction. You cannot change the wage until they respond."
 msgstr "Čeka se da radnik prihvati ili odbiјe smanjenje plaće. Ne možeš promijeniti plaću dok ne odgovori."
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:150
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:152
 msgid "wants"
 msgstr "potražuje"
 
@@ -8539,7 +8544,7 @@ msgstr "Tvoјa država јe započela pobunu u <0/> protiv <1/>"
 msgid "Your current job"
 msgstr "Tvoј trenutni posao"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:141
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:143
 msgid "Your current order"
 msgstr "Tender"
 
